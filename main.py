@@ -2,7 +2,7 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 # Name: portscan.py
 # version: 1.0.0
-# Developer: 7H3uz
+# Developer: TheMariano
 # Created: 11/01/2021
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
@@ -22,5 +22,5 @@ for porta in portas:
     if cliente.connect_ex((web, porta)) == 0:
         print ("[+] Porta",porta,"{{OPEN}} [+]")
 print('++++++++++++++++++++++++++')
-print('Dev: 7H3uz')
+print('Dev: TheMariano')
 
